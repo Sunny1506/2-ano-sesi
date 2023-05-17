@@ -1,0 +1,32 @@
+.título{
+    color:rgb(49, 145, 255);
+    text-align:center;
+    font-size: 30px;
+   
+}
+.texto{
+    color:rgb(6, 51, 250);
+    font-size: 20px;
+    text-align:center;
+
+}
+
+.text-vermelho{
+    color: red;
+}
+
+body{
+    background-color: rgb(151, 212, 255);
+
+}
+
+.text-azul{
+    color: rgb(45, 57, 124);
+}
+
+
+
+
+
+
+

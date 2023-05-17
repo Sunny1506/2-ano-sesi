@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+ 
+<html>
+ <head>
+  <head>
+    <link href="css/estilo.css" rel="stylesheet">
+  </head>
+ <title>Sunny blog </title>
+ <meta name="description" content="Aprenda a criar um site completo que usa formulários em HTML">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ </head>
+
+ <body>
+  <h1> Bem vindo ao Sunny blog</h1> 
+  <h2> Venhar ser Sunny!</h2><br />
+
+
+<!-- DADOS PESSOAIS-->
+<fieldset>
+  <legend>Dados Pessoais</legend>
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="nome">Nome: </label>
+   </td>
+   <td align="left">
+    <input tyxpe="text" name="nome" id="inputNome">
+   </td>
+   
+   <td>
+    <label>Nascimento: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="idade">Idade: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="idade" id="inputIdade"> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label>Equipe que participa:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="cpf2" size="2" maxlength="2" id="inputEquipe">
+   </td>
+  </tr>
+  <td>
+    <label>Onde mora:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="cpf2" id="inputMora">
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<div>
+  <img src="bible.jpg" alt="">
+</div>
+
+
+<button onclick="clickbotao()"> Cadastrar</button>
+<input type="reset" value="Limpar">
+
+ </body>
+ <script src="js/script.js"></script>
+</html>
