@@ -24,6 +24,10 @@ body{
     color: rgb(45, 57, 124);
 }
 
+.card {
+border-color: rgb(0, 0, 255);
+}
+
 
 
 
